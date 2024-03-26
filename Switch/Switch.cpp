@@ -20,9 +20,17 @@ int perkalian(int a, int b)
     return a * b;
 }
 
-float pembagian(int a, int b)
+float pembagian(float a, float b)
 {
     return a / b;
+}
+
+void inputdata()
+{
+    cout << "\nMasukan bilangan pertama : ";
+    cin >> bilangan1;
+    cout << "Masukan bilangan kedua : ";
+    cin >> bilangan2;
 }
 int main()
 {
